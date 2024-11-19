@@ -1306,10 +1306,11 @@ card_mod:
 
 ```
 </details>
-<img src="https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/03.jpg" alt="01" width="600"/>
+
+![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/03.jpg)
 
 <details>
-  <summary>baseyaml</summary>
+  <summary>Carte sonos</summary>
 
 ```yaml
 
