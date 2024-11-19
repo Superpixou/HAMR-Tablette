@@ -835,3 +835,485 @@ layout_options:
 ```
 </details>
 
+![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/02.jpg)
+<details>
+  <summary>Carte de gauche</summary>
+
+```yaml
+type: custom:stack-in-card
+keep:
+  margin: true
+  box_shadow: true
+  background: true
+cards:
+  - type: custom:mushroom-climate-card
+    entity: climate.chambre_parent
+    tap_action:
+      action: false
+    name: Chambre parent
+    icon: mdi:thermometer
+    primary_info: name
+    secondary_info: state
+    show_temperature_control: true
+    hvac_modes:
+      - "off"
+      - heat
+      - cool
+    collapsible_controls: false
+    fill_container: false
+    layout: horizontal
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-entity-card
+    entity: switch.electrovanne_chambreparent
+    icon: mdi:valve
+    layout: horizontal
+    primary_info: name
+    name: Statut électrovanne
+    secondary_info: none
+    tap_action:
+      action: false
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+          margin-top: -15px;
+          margin-bottom: -50px;
+          margin-left: 10px;
+        }
+        :host {
+          --spacing: 0px !important;
+        }
+  - type: custom:mini-graph-card
+    entities:
+      - entity: sensor.temperature_chambreparent
+        name: Température dernière 48h
+        color: "#ff9800"
+    hours_to_show: 48
+    points_per_hour: 1
+    line_width: 2
+    font_size: 50
+    animate: true
+    show:
+      name: true
+      icon: false
+      state: true
+      legend: false
+      fill: fade
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-climate-card
+    entity: climate.chambre_1
+    tap_action:
+      action: false
+    name: Chambre 1
+    icon: mdi:thermometer
+    primary_info: name
+    secondary_info: state
+    show_temperature_control: true
+    hvac_modes:
+      - "off"
+      - heat
+      - cool
+    collapsible_controls: false
+    fill_container: false
+    layout: horizontal
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-entity-card
+    entity: switch.electrovanne_chambre1
+    icon: mdi:valve
+    layout: horizontal
+    primary_info: name
+    name: Statut électrovanne
+    secondary_info: none
+    tap_action:
+      action: false
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+          margin-top: -15px;
+          margin-bottom: -50px;
+          margin-left: 10px;
+        }
+        :host {
+          --spacing: 0px !important;
+        }
+  - type: custom:mini-graph-card
+    entities:
+      - entity: sensor.temperature_chambre1
+        name: Température dernière 48h
+        color: "#ff9800"
+    hours_to_show: 48
+    points_per_hour: 1
+    line_width: 2
+    font_size: 50
+    animate: true
+    show:
+      name: true
+      icon: false
+      state: true
+      legend: false
+      fill: fade
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-climate-card
+    entity: climate.chambre_2
+    tap_action:
+      action: false
+    name: Chambre 2
+    icon: mdi:thermometer
+    primary_info: name
+    secondary_info: state
+    show_temperature_control: true
+    hvac_modes:
+      - "off"
+      - heat
+      - cool
+    collapsible_controls: false
+    fill_container: false
+    layout: horizontal
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-entity-card
+    entity: switch.electrovanne_chambre2
+    icon: mdi:valve
+    layout: horizontal
+    primary_info: name
+    name: Statut électrovanne
+    secondary_info: none
+    tap_action:
+      action: false
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+          margin-top: -15px;
+          margin-bottom: -50px;
+          margin-left: 10px;
+        }
+        :host {
+          --spacing: 0px !important;
+        }
+  - type: custom:mini-graph-card
+    entities:
+      - entity: sensor.temperature_chambre2
+        name: Température dernière 48h
+        color: "#ff9800"
+    hours_to_show: 48
+    points_per_hour: 1
+    line_width: 2
+    font_size: 50
+    animate: true
+    show:
+      name: true
+      icon: false
+      state: true
+      legend: false
+      fill: fade
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+card_mod:
+  style: |
+    ha-card {
+      border-radius: 30px;
+      border-width: 0px !important;
+      background: rgba(0, 0, 0, 0); #0.3=30%
+      box-shadow: none;
+    }
+
+
+```
+</details>
+<details>
+  <summary>Carte de droite</summary>
+
+```yaml
+type: custom:stack-in-card
+keep:
+  margin: true
+  box_shadow: true
+  background: true
+cards:
+  - type: custom:mushroom-climate-card
+    entity: climate.sejour
+    tap_action:
+      action: false
+    name: Séjour
+    icon: mdi:thermometer
+    primary_info: name
+    secondary_info: state
+    show_temperature_control: true
+    hvac_modes:
+      - "off"
+      - heat
+      - cool
+    collapsible_controls: false
+    fill_container: false
+    layout: horizontal
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-entity-card
+    entity: switch.electrovanne_sejour
+    icon: mdi:valve
+    layout: horizontal
+    primary_info: name
+    name: Statut électrovanne
+    secondary_info: none
+    tap_action:
+      action: false
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+          margin-top: -15px;
+          margin-bottom: -50px;
+          margin-left: 10px;
+        }
+        :host {
+          --spacing: 0px !important;
+        }
+  - type: custom:mini-graph-card
+    entities:
+      - entity: sensor.temperature_sejour
+        name: Température dernière 48h
+        color: "#ff9800"
+    hours_to_show: 48
+    points_per_hour: 1
+    line_width: 2
+    font_size: 50
+    animate: true
+    show:
+      name: true
+      icon: false
+      state: true
+      legend: false
+      fill: fade
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-climate-card
+    entity: climate.salle_de_bain
+    tap_action:
+      action: false
+    name: Salle de bain
+    icon: mdi:thermometer
+    primary_info: name
+    secondary_info: state
+    show_temperature_control: true
+    hvac_modes:
+      - "off"
+      - heat
+      - cool
+    collapsible_controls: false
+    fill_container: false
+    layout: horizontal
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-entity-card
+    entity: switch.electrovanne_sdb
+    icon: mdi:valve
+    layout: horizontal
+    primary_info: name
+    name: Statut électrovanne
+    secondary_info: none
+    tap_action:
+      action: false
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+          margin-top: -15px;
+          margin-bottom: -50px;
+          margin-left: 10px;
+        }
+        :host {
+          --spacing: 0px !important;
+        }
+  - type: custom:mini-graph-card
+    entities:
+      - entity: sensor.temperature_sdb
+        name: Température dernière 48h
+        color: "#ff9800"
+    hours_to_show: 48
+    points_per_hour: 1
+    line_width: 2
+    font_size: 50
+    animate: true
+    show:
+      name: true
+      icon: false
+      state: true
+      legend: false
+      fill: fade
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-climate-card
+    entity: climate.bureau
+    tap_action:
+      action: false
+    name: Bureau
+    icon: mdi:thermometer
+    primary_info: name
+    secondary_info: state
+    show_temperature_control: true
+    hvac_modes:
+      - "off"
+      - heat
+      - cool
+    collapsible_controls: false
+    fill_container: false
+    layout: horizontal
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+  - type: custom:mushroom-entity-card
+    entity: switch.electrovanne_bureau
+    icon: mdi:valve
+    layout: horizontal
+    primary_info: name
+    name: Statut électrovanne
+    secondary_info: none
+    tap_action:
+      action: false
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+          margin-top: -15px;
+          margin-bottom: -50px;
+          margin-left: 10px;
+        }
+        :host {
+          --spacing: 0px !important;
+        }
+  - type: custom:mini-graph-card
+    entities:
+      - entity: sensor.temperature_bureau
+        name: Température dernière 48h
+        color: "#ff9800"
+    hours_to_show: 48
+    points_per_hour: 1
+    line_width: 2
+    font_size: 50
+    animate: true
+    show:
+      name: true
+      icon: false
+      state: true
+      legend: false
+      fill: fade
+    card_mod:
+      style: |
+        ha-card {
+          box-shadow: none !important;
+          border: none !important;
+          background: rgba(0, 0, 0, 0); #0.3=30%
+          box-shadow: none;
+        }
+card_mod:
+  style: |
+    ha-card {
+      border-radius: 30px;
+      border-width: 0px !important;
+      background: rgba(0, 0, 0, 0); #0.3=30%
+      box-shadow: none;
+    }
+
+
+```
+</details>
+<img src="https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/03.jpg" alt="01" width="600"/>
+
+<details>
+  <summary>baseyaml</summary>
+
+```yaml
+
+
+```
+</details>
+
