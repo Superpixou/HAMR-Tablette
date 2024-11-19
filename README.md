@@ -1,13 +1,12 @@
 # HAMR-Tablette
+
+<p dir="auto"> <strong>Voici le partage de mon travail réalisé avec beaucoup d'aide venant de la communauté et de temps. MERCI ! </strong></p>
+C'est une base qui trouvera ça forme définitive fin 2025
+
+#
+
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/01.jpg)
-<details>
-  <summary>baseyaml</summary>
 
-```yaml
-
-
-```
-</details>
 <details>
   <summary>Sidebar-card</summary>
 
@@ -835,6 +834,7 @@ layout_options:
 ```
 </details>
 
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/02.jpg)
 <details>
   <summary>Carte de gauche</summary>
@@ -1307,6 +1307,7 @@ card_mod:
 ```
 </details>
 
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/03.jpg)
 
 <details>
@@ -1329,6 +1330,7 @@ card_mod:
 ```
 </details>
 
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/04.jpg)
 <details>
   <summary>Agenda haut</summary>
@@ -1395,6 +1397,7 @@ card_mod:
 ```
 </details>
 
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/05.jpg)
 <details>
   <summary>Todo-list</summary>
@@ -1416,6 +1419,7 @@ card_mod:
 ```
 </details>
 
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/06.jpg)
 <details>
   <summary>Menu paramètre</summary>
@@ -1616,6 +1620,7 @@ cards:
 ```
 </details>
 
+#
   ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/07.jpg)
 <details>
   <summary>Carte Raspberry Pi</summary>
@@ -2002,7 +2007,7 @@ card_mod:
 ```
 </details>
 
-
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/08.jpg)
 <details>
   <summary>Carte batterie</summary>
@@ -2060,6 +2065,7 @@ card_mod:
 ```
 </details>
 
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/09.jpg)
 <details>
   <summary>Carte update</summary>
@@ -2133,6 +2139,7 @@ card_mod:
 ```
 </details>
 
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/10.jpg)
 <details>
   <summary>Carte énergie</summary>
@@ -2225,6 +2232,7 @@ card_mod:
 ```
 </details>
 
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/11.jpg)
 <details>
   <summary>Carte eau</summary>
@@ -2261,6 +2269,7 @@ card_mod:
 ```
 </details>
 
+#
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/12.jpg)
 <details>
   <summary>Carte alarmo</summary>
@@ -2292,3 +2301,40 @@ card_mod:
 
 ```
 </details>
+
+#
+<markdown-accessiblity-table data-catalyst=""><table>
+<thead>
+<tr>
+<th>Matériel</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Raspberry</td>
+<td><code>RaspberryPi 5 8GB</code></td>
+</tr>
+<tr>
+<td>SSD</td>
+<td><code>Seeed studio 128GB NVMe M.2 PCIe Gen3x4</code></td>
+</tr>
+<tr>
+<td>Z-wave</td>
+<td><code>Aeotec Z-stick 7</code></td>
+</tr>
+<tr>
+<td>Case</td>
+<td><code>Argon NEO 5 M.2 NVME</code></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+
+# Intégrations - HACS |- Sera complété prochainement -|
+
+
+<p dir="auto"><strong><a>Custom brand icons</a></strong><br>
+<em>Custom brand icons for Home Assistant</em></p>
+
+
+
