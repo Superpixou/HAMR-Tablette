@@ -2358,5 +2358,7 @@ card_mod:
   [swipe-card](https://github.com/bramkragten/swipe-card)  
   _A Lovelace card that uses swiper to create a touch slider that lets you flick through multiple cards_
 
+---
+# 🌟 Si vous aimez, faites le savoir avec une étoile 🌟
 
-
+---
