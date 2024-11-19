@@ -1,9 +1,9 @@
-# HAMR-Tablette
+# Home assistant | MR-Tablette
 **Voici le partage de mon travail réalisé avec beaucoup d'aide venant de la communauté et de temps. MERCI !**
 
 _C'est une base qui trouvera ça forme définitive fin 2025_
 
-## Table of contents
+## Table des matières
 
 **[Home](#home)**  |  **[Chauffage](#chauffage)**  |  **[Musique](#musique)**  |  **[Agenda](#agenda)** |  **[Todo-list](#todo-list)**   |  **[Paramètre](#paramètre)**  
 **[Rpi](#rpi)**  |  **[Batterie](#batterie)**  |  **[Update](#update)**  |  **[Energie](#energie)**  |  **[Eau](#eau)**  |  **[Alarmo](#alarmo)**  
