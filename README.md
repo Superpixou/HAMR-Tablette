@@ -2303,38 +2303,42 @@ card_mod:
 </details>
 
 #
-<markdown-accessiblity-table data-catalyst=""><table>
-<thead>
-<tr>
-<th>Matériel</th>
-<th>Type</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Raspberry</td>
-<td><code>RaspberryPi 5 8GB</code></td>
-</tr>
-<tr>
-<td>SSD</td>
-<td><code>Seeed studio 128GB NVMe M.2 PCIe Gen3x4</code></td>
-</tr>
-<tr>
-<td>Z-wave</td>
-<td><code>Aeotec Z-stick 7</code></td>
-</tr>
-<tr>
-<td>Case</td>
-<td><code>Argon NEO 5 M.2 NVME</code></td>
-</tr>
-</tbody>
-</table></markdown-accessiblity-table>
+| Matériel | Type | 
+| --- | --- | 
+| Raspberry |  `RaspberryPi 5 8GB` | 
+| SSD |  `Seeed studio 128GB NVMe M.2 PCIe Gen3x4` | 
+| Z-wave | `Aeotec Z-stick 7` |  
+| Case | `Argon NEO 5 M.2 NVME` |    
 
 # Intégrations - HACS |- Sera complété prochainement -|
 
 
-<p dir="auto"><strong><a>Custom brand icons</a></strong><br>
-<em>Custom brand icons for Home Assistant</em></p>
+  [Decluttering Card ](https://github.com/custom-cards/decluttering-card)  
+  _Reuse multiple times the same card configuration with variables to declutter your config_
+
+  [lovelace-card-mod ](https://github.com/thomasloven/lovelace-card-mod)  
+  _Add CSS styles_
+  
+  [lovelace-layout-card ](https://github.com/thomasloven/lovelace-layout-card)  
+  _Get more control over the placement of lovelace cards_
+  
+  [vertical-stack-in-card ](https://github.com/ofekashery/vertical-stack-in-card)  
+  _To group multiple cards into a single sleek card_
+  
+  [button-card ](https://github.com/custom-cards/button-card)  
+  _Lovelace button-card_
+
+  [apexcharts-card](https://github.com/RomRider/apexcharts-card)  
+  _Higly customizable graph card_
+  
+  [Lovelace Mini Graph Card](https://github.com/kalkih/mini-graph-card)  
+  _Minimalistic graph card_
+
+  [bar-card](https://github.com/custom-cards/bar-card)  
+  _Customizable Animated Bar card_
+
+  [swipe-card](https://github.com/bramkragten/swipe-card)  
+  _A Lovelace card that uses swiper to create a touch slider that lets you flick through multiple cards_
 
 
 
