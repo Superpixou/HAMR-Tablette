@@ -2359,6 +2359,6 @@ card_mod:
   _A Lovelace card that uses swiper to create a touch slider that lets you flick through multiple cards_
 
 ---
-# 🌟 Si vous aimez, faites le savoir avec une étoile 🌟
+## 🌟 Si vous aimez, faites le savoir avec une étoile 🌟
 
 ---
