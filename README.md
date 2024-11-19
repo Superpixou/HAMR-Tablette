@@ -1,7 +1,6 @@
 # HAMR-Tablette
-
-<p dir="auto"> <strong>Voici le partage de mon travail réalisé avec beaucoup d'aide venant de la communauté et de temps. MERCI ! </strong></p>
-C'est une base qui trouvera ça forme définitive fin 2025
+**Voici le partage de mon travail réalisé avec beaucoup d'aide venant de la communauté et de temps. MERCI !**
+_C'est une base qui trouvera ça forme définitive fin 2025_
 
 #
 
