@@ -2,9 +2,7 @@
 **Voici le partage de mon travail réalisé avec beaucoup d'aide venant de la communauté et de temps. MERCI !**
 
 _C'est une base qui trouvera ça forme définitive fin 2025_
-
-#
-
+## Home
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/01.jpg)
 
 <details>
@@ -834,7 +832,7 @@ layout_options:
 ```
 </details>
 
-#
+## Chauffage
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/02.jpg)
 <details>
   <summary>Carte de gauche</summary>
@@ -1307,7 +1305,7 @@ card_mod:
 ```
 </details>
 
-#
+## Musique
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/03.jpg)
 
 <details>
@@ -1330,7 +1328,7 @@ card_mod:
 ```
 </details>
 
-#
+## Agenda
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/04.jpg)
 <details>
   <summary>Agenda haut</summary>
@@ -1397,7 +1395,7 @@ card_mod:
 ```
 </details>
 
-#
+## Todo-list
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/05.jpg)
 <details>
   <summary>Todo-list</summary>
@@ -1419,7 +1417,7 @@ card_mod:
 ```
 </details>
 
-#
+## Paramètre
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/06.jpg)
 <details>
   <summary>Menu paramètre</summary>
@@ -1620,7 +1618,7 @@ cards:
 ```
 </details>
 
-#
+## RPi
   ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/07.jpg)
 <details>
   <summary>Carte Raspberry Pi</summary>
@@ -2007,7 +2005,7 @@ card_mod:
 ```
 </details>
 
-#
+## Batterie
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/08.jpg)
 <details>
   <summary>Carte batterie</summary>
@@ -2065,7 +2063,7 @@ card_mod:
 ```
 </details>
 
-#
+## Update
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/09.jpg)
 <details>
   <summary>Carte update</summary>
@@ -2139,7 +2137,7 @@ card_mod:
 ```
 </details>
 
-#
+## Energie
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/10.jpg)
 <details>
   <summary>Carte énergie</summary>
@@ -2232,7 +2230,7 @@ card_mod:
 ```
 </details>
 
-#
+## Eau
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/11.jpg)
 <details>
   <summary>Carte eau</summary>
@@ -2269,7 +2267,7 @@ card_mod:
 ```
 </details>
 
-#
+## Alarmo
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/12.jpg)
 <details>
   <summary>Carte alarmo</summary>
@@ -2302,7 +2300,7 @@ card_mod:
 ```
 </details>
 
-#
+## Setup
 | Matériel | Type | 
 | --- | --- | 
 | Raspberry |  `RaspberryPi 5 8GB` | 
@@ -2310,7 +2308,7 @@ card_mod:
 | Z-wave | `Aeotec Z-stick 7` |  
 | Case | `Argon NEO 5 M.2 NVME` |    
 
-# Intégrations - HACS |- Sera complété prochainement -|
+## Intégrations - HACS |- Sera complété prochainement -|
 
 
   [Decluttering Card ](https://github.com/custom-cards/decluttering-card)  
