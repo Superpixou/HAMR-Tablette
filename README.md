@@ -10,6 +10,117 @@
 
 ![01](https://github.com/user-attachments/assets/76ffa6bc-c014-43eb-8477-94ad761a9583)
 <details>
+  <summary>Entête</summary>
+
+```yaml
+type: custom:mushroom-chips-card
+chips:
+  - type: action
+    tap_action:
+      action: call-service
+      service: browser_mod.popup
+      data:
+        title: Scan le code pour te connecter !
+        content:
+          type: picture
+          image: local/images/Wifiqr.png
+          tap_action:
+            action: none
+          hold_action:
+            action: none
+        entity: input_button.qr
+    icon_color: accent
+    icon: mdi:wifi-plus
+    card_mod:
+      style: |
+        ha-card {
+          border-width: 0px !important;
+          background: rgba(0, 0, 0, 0) !important;
+        }
+  - type: template
+    entity: person.x
+    content: Raphaël
+    icon: |
+      {% if is_state('person.x', 'home') %}
+        mdi:account
+      {% else %}
+        mdi:account-off
+      {% endif %}
+    icon_color: |
+      {% if is_state('person.x', 'home') %}
+        green
+      {% else %}
+        red
+      {% endif %}
+    tap_action:
+      action: more-info
+    card_mod:
+      style: |
+        ha-card {
+          border-width: 0px !important;
+          background: rgba(0, 0, 0, 0) !important;
+        }
+  - type: template
+    entity: person.x
+    content: x
+    icon: |
+      {% if is_state('person.x', 'home') %}
+        mdi:account
+      {% else %}
+        mdi:account-off
+      {% endif %}
+    icon_color: |
+      {% if is_state('person.x', 'home') %}
+        green
+      {% else %}
+        red
+      {% endif %}
+    tap_action:
+      action: more-info
+    card_mod:
+      style: |
+        ha-card {
+          border-width: 0px !important;
+          background: rgba(0, 0, 0, 0) !important;
+        }
+  - type: template
+    entity: alarm_control_panel.alarmo
+    icon: |
+      {% if is_state('alarm_control_panel.alarmo', 'disarmed') %}
+        mdi:shield-off
+      {% else %}
+        mdi:shield-lock
+      {% endif %}
+    icon_color: |
+      {% if is_state('alarm_control_panel.alarmo', 'disarmed') %}
+        red
+      {% else %}
+        green
+      {% endif %}
+    content: |
+      {% if is_state('alarm_control_panel.alarmo', 'disarmed') %}
+        Alarme désactivée
+      {% else %}
+        Alarme activée
+      {% endif %}
+    tap_action:
+      action: navigate
+      navigation_path: /tablette-a8/alarme
+    card_mod:
+      style: |
+        ha-card {
+          border-width: 0px !important;
+          background: rgb(0, 0, 0, 0) !important;
+        }
+layout_options:
+  grid_columns: 4
+  grid_rows: auto
+alignment: start
+
+
+```
+</details>
+<details>
   <summary>Carte température</summary>
 
 ```yaml
