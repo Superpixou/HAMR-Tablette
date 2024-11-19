@@ -6,8 +6,9 @@ _C'est une base qui trouvera ça forme définitive fin 2025_
 ## Table des matières
 
 **[Home](#home)**  |  **[Chauffage](#chauffage)**  |  **[Musique](#musique)**  |  **[Agenda](#agenda)** |  **[Todo-list](#todo-list)**   |  **[Paramètre](#paramètre)**  
-**[Rpi](#rpi)**  |  **[Batterie](#batterie)**  |  **[Update](#update)**  |  **[Energie](#energie)**  |  **[Eau](#eau)**  |  **[Alarmo](#alarmo)**  
+**[Rpi](#rpi)**  |  **[Batterie](#batterie)**  |  **[Update](#update)**  |  **[Energie](#energie)**  |  **[Eau](#eau)**  |  **[Alarmo](#alarmo)** |  **[Setup](#setup)** 
 
+---
 ## Home
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/01.jpg)
 
@@ -838,6 +839,7 @@ layout_options:
 ```
 </details>
 
+---
 ## Chauffage
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/02.jpg)
 <details>
@@ -1311,6 +1313,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Musique
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/03.jpg)
 
@@ -1334,6 +1337,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Agenda
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/04.jpg)
 <details>
@@ -1401,6 +1405,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Todo-list
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/05.jpg)
 <details>
@@ -1423,6 +1428,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Paramètre
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/06.jpg)
 <details>
@@ -1624,6 +1630,7 @@ cards:
 ```
 </details>
 
+---
 ## RPi
   ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/07.jpg)
 <details>
@@ -2011,6 +2018,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Batterie
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/08.jpg)
 <details>
@@ -2069,6 +2077,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Update
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/09.jpg)
 <details>
@@ -2143,6 +2152,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Energie
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/10.jpg)
 <details>
@@ -2236,6 +2246,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Eau
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/11.jpg)
 <details>
@@ -2273,6 +2284,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Alarmo
 ![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/12.jpg)
 <details>
@@ -2306,6 +2318,7 @@ card_mod:
 ```
 </details>
 
+---
 ## Setup
 | Matériel | Type | 
 | --- | --- | 
@@ -2314,7 +2327,8 @@ card_mod:
 | Z-wave | `Aeotec Z-stick 7` |  
 | Case | `Argon NEO 5 M.2 NVME` |    
 
-## Intégrations - HACS |- Sera complété prochainement -|
+---
+## Intégrations - HACS |- Incomplet -|
 
 
   [Decluttering Card ](https://github.com/custom-cards/decluttering-card)  
