@@ -1,6 +1,8 @@
 # Home assistant | MR-Tablette
 **Voici le partage de mon travail réalisé avec beaucoup d'aide venant de la communauté et de temps. MERCI !**
 
+test
+
 _C'est une base qui trouvera ça forme définitive fin 2025_
 
 ## Table des matières
