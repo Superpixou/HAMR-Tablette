@@ -2,6 +2,7 @@
 **Voici le partage de mon travail réalisé avec beaucoup d'aide venant de la communauté et de temps. MERCI !**
 
 _C'est une base qui trouvera ça forme définitive fin 2025_
+![01](https://github.com/Superpixou/HAMR-Tablette/blob/main/Images/anim.gif)
 
 ## Table des matières
 
